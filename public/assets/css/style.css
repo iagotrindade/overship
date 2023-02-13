@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --primary-color: #FF5900;
+    --primary-font-color: #FFFFFF;
+    --secondary-font-color: #000000;
+    --tertiary-font-color: #484848;
+}
+
+.container-xg {
+    max-width: 1440px;
+}
+
+.container-lg {
+    max-width: 1440px;
+    padding: 0 30px;
+}
+
+.container-md {
+    width: 80vw;
+}
+
+.section-warning-shipping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: var(--primary-color);
+}
+
+.section-warning-shipping p {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: var(--primary-font-color);
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.section-logo-area img {
+    width: 230px;
+    height: 60px;
+}
+
+.section-menu-area ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 380px;
+}
+
+.section-menu-area ul li a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 1px;
+}
+
+.section-menu-area ul li a:hover {
+    border-bottom: 1px solid var(--secondary-font-color);
+}
+
+.section-header-form-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header-form-area form i {
+   position: relative;
+   left: -30px;
+   top: 2px;
+   cursor: pointer;
+}
+
+.section-header-form-area form input {
+    outline: 0;
+    width: 400px;
+    height: 25px;
+    border: 1px solid #E7E7E7;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.section-user-icon-area a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--secondary-font-color);
+}
+
+.section-user-icon-area p {
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-scrollbar-drag {
+    background-color: var(--primary-font-color) !important;
+}
+
+.section-slide-banner1-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 600px;
+    background-image:url("http://localhost/chamaleon/public/assets/images/banners/banner1.png");
+    background-position: center;
+    background-size: cover;
+    color: var(--primary-font-color);
+}
+
+.border-banner1 {
+    height: 2px;
+    width: 660px;
+    background-color: var(--primary-font-color);
+    margin: 30px 0;
+}
+
+.section-banner-texts h2 {
+    font-size: 70px;
+}
+
+.section-banner-texts p {
+    font-size: 20px;
+    margin-bottom: 40px
+}
+
+.button-banner1 {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    background-color: var(--primary-font-color);
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px 60px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-banner1:hover {
+    color: var(--primary-font-color);
+    background-color: var(--primary-color);
+}
+
+.section-our-products-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 90px 0;
+
+}
+
+.section-area-all-products-link, .section-area-all-categories-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-area-all-products-link a, .section-area-all-categories-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 7px;
+    text-align: right;
+}
+
+.section-area-all-products-link a:hover, .section-area-all-categories-link a:hover {
+    border-bottom: 1px solid #FF5900;
+}
+
+.section-products-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 310px;
+    height: 500px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+}
+
+.product-box img {
+    width: 290px;
+}
+
+.product-box-desc {
+    width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.product-box-price-obs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-box-price {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.product-box-obs {
+    width: 100%;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.product-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 25px;
+    background: var(--primary-color);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+
+.product-box a:hover {
+    color: var(--secondary-font-color);
+    background-color: var(--primary-font-color);
+}
+
+.categories-banners-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-category-area-img1 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-category-area-img2 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-category-area-img3 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-marketing-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-marketing-area-img {
+    margin-right: 80px;
+}
+
+.section-marketing-area-texts h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--secondary-font-color);
+}
+
+.section-marketing-area-underline-tittle {
+    height: 2px;
+    width: 105px;
+    background-color: #D8D8D8;
+    margin: 15px 0;
+}
+
+.section-marketin-area-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--tertiary-font-color);
+    margin-bottom: 30px;
+}
+
+.section-marketing-area-texts ul {
+    width: 450px;
+    list-style: none;
+}
+
+.section-marketing-area-texts ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-marketing-area-texts ul li i {
+    padding: 4px 7px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-font-color);
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.section-marketing-area-texts ul li p {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--tertiary-font-color);
+}
+
